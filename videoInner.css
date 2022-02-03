@@ -1,0 +1,19 @@
+p,a,b,h3,h2{
+	color: #000;
+
+	font-family: 'Oswald', sans-serif;
+}
+h2{
+	text-align: center;
+}
+
+.breadcrumb{
+	background: #6075A2;
+	border-radius: 0;
+	font-family: 'Oswald', sans-serif;
+	
+}
+.navbar{
+	background: #374169;
+	font-family: 'Noto Serif', serif !important;
+}

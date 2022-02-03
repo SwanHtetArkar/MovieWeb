@@ -1,0 +1,136 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #ffffe5;
+}
+/*nav section*/
+.navbar{
+	background: #010E35;
+}
+.navbar-brand,.nav-link{
+	color: #fff;
+	margin-right: 1em !important;
+}
+.navbar-brand:hover,.nav-link:hover{
+	color: #fff;
+}
+.navbar-collapse{
+	justify-content: flex-start;
+}
+.nav-item{
+	font-family: 'Noto Serif', serif !important;
+}
+/*header section*/
+.header{
+	background:url("../GARNiDELiA/garnidelia.png");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.overlay{
+	min-width: 100%;
+	min-height: 100%;
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .3;
+}
+.description{
+	color: #fff;		
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+}
+.description h1{
+	color: #ffc;
+}
+.description p{
+	color: #fff;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	margin-top: 20px;
+}
+.description button{
+	border: 1px solid #fff;
+	background: #003A93;
+	color: #fff;
+}
+
+.description button:hover{
+	border: 1px solid #003A93;
+	background: #fff;
+	color: #003A93;
+}
+.description .btn a{
+	color: inherit;
+}
+.description .btn a:hover{
+	color: inherit;
+	text-decoration: none;
+}
+/*features section*/
+.features img{
+	box-shadow: 2px 2px 2px #ccc;
+}
+.features{
+}
+@media(max-width: 576px){
+	.description{
+		position: absolute;
+		top: 10%;
+		transform: none;
+		left: 0;
+		padding: 0 15px 0 15px;	
+	}
+	.description h1{
+		font-size: 2em;
+	}
+	.description p{
+		font-size: 1.1em;
+	}
+}
+/*video section*/
+#songs{
+
+}
+.videos video{
+	height: 143px;
+}
+.videos .col-3{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.videos .card-footer{
+	background: inherit;
+	color: inherit;
+	font-size: 1em;
+}
+
+.videos .card{
+	box-shadow: 2px 2px 2px #ccc;
+	background: lightblue;
+	color: #fff;
+	font-family: 'quesha';
+}
+.videos .video-header{
+	height: 50px;
+	background: lightblue;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+}
+.videos .video-header h3{
+	line-height: 50px;
+	color: #fff;	
+	font-size: 1.9em;
+}
+.card:hover, .card-footer:hover{
+	box-shadow: 5px 5px 5px #ccc;
+	background: #fff;
+	color: #290554;
+	letter-spacing: 1.2px;
+	border: 1px solid #290554;
+
+}

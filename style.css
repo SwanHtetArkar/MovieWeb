@@ -1,0 +1,79 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #505050;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #242424;
+}
+.noto{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+	background: #ffffe5 !important;
+}
+.breadcrumb{
+	background: #6075A2;
+	border-radius: 0;
+	font-family: 'Oswald', sans-serif;
+	
+}
+.navbar{
+	background: #374169;
+	font-family: 'Noto Serif', serif !important;
+}
+.nav-link{
+	color: #ffc !important;
+}
+a .card-footer,.card-footer{
+	background: inherit;
+	text-align: center;
+	color: inherit;
+	font-family: 'Sawarabi Mincho', sans-serif;
+}
+a .card:hover,a .card-footer:hover,.card:hover,.card-footer:hover{
+	color: #5CC1CD !important;
+	letter-spacing: 1.2px;
+	background: #ffc;
+	border: 1px #5CC1CD solid;
+	box-shadow: 5px 5px 5px #5CC1CD;
+	overflow: hidden;
+}
+a:hover{
+	text-decoration: none;
+}
+a .card, .card{
+	box-shadow: 2px 2px 2px #ccc;
+	background: #5CC1CD;
+	color: #ffc;
+}
+.card-img-top{
+        height: 250px;  
+      
+      }
+      .card-footer{
+        height: 64px;
+        overflow: hidden;
+      }
+      .foot{
+        color: silver;
+      }
+      .page-footer{
+        background:#505050;
+      }
+      .navbread{
+        color: white !important; 
+      }
+      a:link ,a:visited, a:hover, a:active{
+        color: black;
+      }
